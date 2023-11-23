@@ -53,3 +53,15 @@ Command <|.. AddValueCommand
 Command <|.. SubtractValueCommand 
 Command <|.. SquareValueCommand 
 ```
+
+## 출력 결과 예시
+
+과제 설명에는 주어지지 않은 예시로, 실습자(김동주)가 임의로 작성함.
+
+```
+314 + 159 = 473
+111 - 999 = -888
+7 * 7 = 49
+1000 / 5 = 200
+32 ^ 2 = 1024
+```
