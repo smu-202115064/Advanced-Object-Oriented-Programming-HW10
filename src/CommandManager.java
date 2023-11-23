@@ -14,7 +14,7 @@ public class CommandManager {
 
     void performOperations() {
         for (Command cmd : opList) {
-            System.out.println(cmd.execute());
+            cmd.execute();
         }
     }
 }
