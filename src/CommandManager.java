@@ -1,17 +1,20 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class CommandManager {
     private List<Command> opList;
 
     public CommandManager() {
-        // TODO
+        opList = new ArrayList<>();
     }
 
     void addOperation(Command op) {
-        // TODO
+        opList.add(op);
     }
 
     void performOperations() {
-        // TODO
+        for (Command cmd : opList) {
+            System.out.println(cmd.execute());
+        }
     }
 }
