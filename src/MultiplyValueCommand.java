@@ -9,6 +9,7 @@ public class MultiplyValueCommand implements Command {
 
     @Override
     public int execute() {
+        System.out.printf("%d * %d = %d\n", x, y, x*y);
         return x * y;
     }
 }

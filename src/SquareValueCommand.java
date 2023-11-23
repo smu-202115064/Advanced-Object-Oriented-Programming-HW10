@@ -7,6 +7,7 @@ public class SquareValueCommand implements Command {
 
     @Override
     public int execute() {
+        System.out.printf("%d ^ 2 = %d\n", x, x*x);
         return x * x;
     }
 }
